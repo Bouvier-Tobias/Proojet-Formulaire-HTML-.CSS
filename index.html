@@ -3,37 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire HTML/CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login et Registration</title>
 </head>
 <body>
     
-    <form action="#" class="formulaire_html">
+    <nav class="nav">
+        <div class="logo">
+            <p>Logo .</p>
+        </div>
 
-        <section>
-            <h1>Formualire D'inscription</h1>
-        </section>
+        <div class="nav-menu">
 
-        <input type="text" name="name" id="name" placeholder="name" required>
+            <ul>
+                <li><a href="#" class="link active"></a>Home</li>
+                <li><a href="#" class="link"></a>Contact</li>
+                <li><a href="#" class="link"></a>Blog</li>
+                <li><a href="#" class="link"></a>Services</li>
+            </ul>
 
-        <input type="text" name="username" id="username" placeholder="Prénom" required>
+        </div>
+        
+        <div class="nav-button">
+            <button class="btn">Sign In</button>
+            <button class="btn">Sign Up</button>
+        </div>
 
-        <input type="email" name="email" id="email" placeholder="email" required>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu"></i>
+        </div>
 
-        <input type="text" name="adress" id="adress" placeholder="Adresse Postal">
-
-        <input type="text" name="codepostal" id="codepostal" placeholder="Code Postal" minlength="0" maxlength="5">
-
-        <input type="number" name="age" id="age" placeholder="Votre age" min="18" max="99">
-
-        <select name="genre" id="genre">
-            <option value="Votre genre">Selectionner votre genre</option>
-            <option value="Homme">Homme</option>
-            <option value="Femme">Femme</option>
-            <option value="Autre">Autre</option>
-        </select>
-
-        <input type="submit" id="btn" value="Validé">
-    </form>
+    </nav>
+    
+    
 
 </body>
 </html>
